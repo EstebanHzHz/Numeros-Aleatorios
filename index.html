@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el numero</title>
+    <script src="scripts/st.js"></script>
+    <link rel="stylesheet" href="templates/style.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Adivina el numero</legend>
+        <input type="button" value="Empezar" id="Start" onclick="start()">
+        <table id="container" class="container">
+            <tr>
+                <td><label for="idNumero"><input type="text" name="" id="Show" value="?" style="text-align: center;" disabled></label></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="nNumero" id="idNumero" placeholder="Ingresa un numero"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="Probar" id="Prueba" onclick="comprobar()"></td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>
